@@ -28,6 +28,8 @@ int main() {
         return -1;
     }
 
+    std::cout << "Hello World!" << std::endl;
+
     while (!glfwWindowShouldClose(window)) {
         glfwSwapBuffers(window);
         glfwPollEvents();
